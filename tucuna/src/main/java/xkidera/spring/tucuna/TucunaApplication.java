@@ -14,8 +14,8 @@ public class TucunaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TucunaApplication.class, args);
 	}
-	@GetMapping("/hello")
-	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello %s!", name);
+	@GetMapping("/pamonha")
+	public String hello(@RequestParam(value = "name", defaultValue = "Pamonha") String name) {
+		return String.format("Vai %s!", name);
 	}
 }
